@@ -58,6 +58,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
             <Route index element={<Home />} />
+            <Route path="/final-portfolio" element={<Home />} />
             <Route path="/redesign" element={<Redesign />} />
             <Route path="/personas" element={<Personas />} />
             <Route path="/iterative" element={<Iterative />} />
