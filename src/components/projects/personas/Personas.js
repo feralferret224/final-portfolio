@@ -1,6 +1,6 @@
 import React from 'react';
 import './Personas.css';
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 function Personas() {
     return (
@@ -8,19 +8,19 @@ function Personas() {
             <div className='container-sm intro'>
                 <ul class="nav justify-content-end justify-items-end">
                 <li>
-                    <NavLink style={{textDecoration: 'none'}} to="/#Projects">
+                    {/* <NavLink style={{textDecoration: 'none'}} to="/#Projects"> */}
                         <a class="nav-link active" href="">projects</a>
-                    </NavLink>
+                    {/* </NavLink> */}
                 </li>
                 <li >
-                    <NavLink style={{textDecoration: 'none'}} to="/#Work">
+                    {/* <NavLink style={{textDecoration: 'none'}} to="/#Work"> */}
                         <a class="nav-link active" href="">work</a>
-                    </NavLink>            
+                    {/* </NavLink>             */}
                 </li>
                 <li >
-                    <NavLink style={{textDecoration: 'none'}} to="/#About">
+                    {/* <NavLink style={{textDecoration: 'none'}} to="/#About"> */}
                         <a class="nav-link active" href="">about</a>
-                    </NavLink>            
+                    {/* </NavLink>             */}
                 </li>
                 </ul>
             </div>

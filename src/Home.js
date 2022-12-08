@@ -6,7 +6,7 @@ import Work from './components/work/Work';
 
 
 import ReactDOM from "react-dom/client";
-import { Outlet, BrowserRouter, Routes, Route } from "react-router-dom";
+// import { Outlet, BrowserRouter, Routes, Route } from "react-router-dom";
 import Redesign from "./components/projects/redesign/Redesign";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";

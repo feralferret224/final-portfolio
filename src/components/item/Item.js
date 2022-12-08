@@ -18,7 +18,7 @@ import ButtonUnstyled, { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled'
 import { styled } from '@mui/system';
 import { CardActionArea } from '@mui/material';
 
-import { Outlet, Link } from "react-router-dom";
+// import { Outlet, Link } from "react-router-dom";
 
 const blue = {
   500: '#007FFF',
