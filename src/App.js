@@ -9,7 +9,7 @@ import Personas from './components/projects/personas/Personas';
 import Iterative from './components/projects/iterative/Iterative';
 
 // import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Development from './components/projects/development/Development';
@@ -55,8 +55,6 @@ export default function App() {
       {/* <Header></Header>
       <Projects projs={projsList}></Projects>
       <Work></Work> */}
-      please vi
-
       {/* <BrowserRouter>
         <Routes>
             <Route path="/final-portfolio" element={<Home />} />
