@@ -55,17 +55,17 @@ export default function App() {
       {/* <Header></Header>
       <Projects projs={projsList}></Projects>
       <Work></Work> */}
-      <BrowserRouter>
+      please vi
+
+      {/* <BrowserRouter>
         <Routes>
-            {/* <Route index element={<Home />} /> */}
             <Route path="/final-portfolio" element={<Home />} />
             <Route path="/redesign" element={<Redesign />} />
             <Route path="/personas" element={<Personas />} />
             <Route path="/iterative" element={<Iterative />} />
             <Route path="/development" element={<Development />} />
-            {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
     </div>
   );
